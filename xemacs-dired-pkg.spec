@@ -2,7 +2,7 @@ Summary:	Manage file systems
 Summary(pl):	Manage file systems
 Name:		xemacs-dired-pkg
 %define 	srcname	dired
-Version:	1.08
+Version:	1.09
 Release:	1
 License:	GPL
 Group:		Applications/Editors/Emacs
