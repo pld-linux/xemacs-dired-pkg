@@ -18,7 +18,7 @@ Requires:	xemacs-base-pkg
 The DIRectory EDitor is for manipulating, and running commands on
 files in a directory.
 
-%description -l pl 
+%description -l pl
 Modu³ do do zarz±dzania plikami.
 
 %prep
@@ -30,13 +30,13 @@ install -d $RPM_BUILD_ROOT%{_datadir}/xemacs-packages
 
 cp -a * $RPM_BUILD_ROOT%{_datadir}/xemacs-packages
 
-gzip -9nf lisp/dired/ChangeLog 
+gzip -9nf lisp/dired/ChangeLog
 
 %clean
 rm -fr $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc lisp/dired/ChangeLog.gz 
+%doc lisp/dired/ChangeLog.gz
 %dir %{_datadir}/xemacs-packages/lisp/*
 %{_datadir}/xemacs-packages/lisp/*/*.elc
