@@ -8,7 +8,7 @@ License:	GPL
 Group:		Applications/Editors/Emacs
 Group(pl):	Aplikacje/Edytory/Emacs
 URL:		http://www.xemacs.org
-Source0:	ftp://ftp.xemacs.org/packages/%{srcname}-%{version}-pkg.tar.gz
+Source0:	ftp://ftp.xemacs.org/xemacs/packages/%{srcname}-%{version}-pkg.tar.gz
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 BuildArch:	noarch
 Conflicts:	xemacs-sumo
