@@ -9,7 +9,7 @@ Group:		Applications/Editors/Emacs
 Group(pl):	Aplikacje/Edytory/Emacs
 URL:		http://www.xemacs.org
 Source0:	ftp://ftp.xemacs.org/packages/%{srcname}-%{version}-pkg.tar.gz
-BuildRoot:	/tmp/%{name}-%{version}-root
+BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 BuildArch:	noarch
 Conflicts:	xemacs-sumo
 Requires:	xemacs
@@ -17,9 +17,7 @@ Requires:	xemacs-base-pkg
 
 %description
 
-
 %description -l pl 
-
 
 %prep
 %setup -q -c
