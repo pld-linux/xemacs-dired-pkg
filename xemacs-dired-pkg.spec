@@ -1,11 +1,12 @@
 Summary:	Manage file systems
-Summary(pl):	Manage file systems
+Summary(pl):	Manager plików
 Name:		xemacs-dired-pkg
 %define 	srcname	dired
 Version:	1.09
 Release:	1
 License:	GPL
 Group:		Applications/Editors/Emacs
+Group(de):	Applikationen/Editors/Emacs
 Group(pl):	Aplikacje/Edytory/Emacs
 URL:		http://www.xemacs.org
 Source0:	ftp://ftp.xemacs.org/xemacs/packages/%{srcname}-%{version}-pkg.tar.gz
@@ -16,8 +17,11 @@ Requires:	xemacs
 Requires:	xemacs-base-pkg
 
 %description
+The DIRectory EDitor is for manipulating, and running commands on
+files in a directory.
 
 %description -l pl 
+Modu³ do do zarz±dzania plikami.
 
 %prep
 %setup -q -c
