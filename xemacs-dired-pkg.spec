@@ -1,5 +1,5 @@
 Summary:	Manage file systems
-Summary(pl.UTF-8):   Manager plików
+Summary(pl.UTF-8):	Manager plików
 Name:		xemacs-dired-pkg
 %define 	srcname	dired
 Version:	1.15
