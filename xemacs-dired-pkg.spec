@@ -1,5 +1,5 @@
 Summary:	Manage file systems
-Summary(pl):	Manager plików
+Summary(pl.UTF-8):   Manager plikÃ³w
 Name:		xemacs-dired-pkg
 %define 	srcname	dired
 Version:	1.15
@@ -19,8 +19,8 @@ Requires:	xemacs-base-pkg
 The DIRectory EDitor is for manipulating, and running commands on
 files in a directory.
 
-%description -l pl
-Modu³ do do zarz±dzania plikami.
+%description -l pl.UTF-8
+ModuÅ‚ do do zarzÄ…dzania plikami.
 
 %prep
 %setup -q -c
