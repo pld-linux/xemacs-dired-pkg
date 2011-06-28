@@ -2,13 +2,13 @@ Summary:	Manage file systems
 Summary(pl.UTF-8):	Manager plików
 Name:		xemacs-dired-pkg
 %define 	srcname	dired
-Version:	1.15
+Version:	1.20
 Release:	1
 License:	GPL
 Group:		Applications/Editors/Emacs
 URL:		http://www.xemacs.org/
 Source0:	http://ftp.xemacs.org/xemacs/packages/%{srcname}-%{version}-pkg.tar.gz
-# Source0-md5:	3bd864d76ba88c2a8a42772222a2743f
+# Source0-md5:	6d7a66868d968d259dbb6a8f7376b78b
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 BuildArch:	noarch
 Conflicts:	xemacs-sumo
